@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href={{url_for('static', filename='css/test.css')}}>
+
+<title>VM Controls</title>
+</head>
+<body>
+
+<div id="main-b" class="main-box">
+    <div class="main_box_header">
+        <div class="main_box_title">
+            <h1>VM Controls</h1>
+        </div>
+        <div class="main-box-content">
+            <button id="create-btn" class="button-24" >Create Vm</button>
+            <button id="start-btn" class="button-24" >Start VM</button>
+            <button id="stop-btn" class="button-24" >Stop Vm</button>
+            <button id="snapshot-btn" class="button-24" >Snapshot VM</button>
+
+        </div>
+        <div id="logs-b" class="logs-box"></div>
+    </div>
+    </div>
+    <script src="test.js"></script>
+    <script src={{url_for('static', filename='js/test.js')}}></script>
+</body>
+</html>

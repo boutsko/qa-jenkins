@@ -1,0 +1,56 @@
+.main-box {
+    color: rgb(11, 26, 161);
+    background-color: rgb(198, 198, 238);
+    height: 500px;
+    width: 500px;
+    text-align: center;
+}
+
+.main-box-content {
+    color: rgb(11, 26, 161);
+    
+}
+
+.logs-box {
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+
+
+
+.button-24 {
+    background: rgb(11, 26, 161);
+    border: 1px solid rgb(214, 240, 255);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  .button-24:hover,
+  .button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: rgb(11, 26, 161);
+  }
+  
+  .button-24:active {
+    opacity: .5;
+  }

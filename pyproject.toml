@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "veil"
+version = "6.0"
+description = "Veil - virtualization project."
+authors = ["petrastegaev <petr.rastegaev@jetbrains.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+betterproto = "^1.2.5"
+grpclib = "^0.4.3"
+loguru = "^0.6.0"
+flask = "^2.2.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.2"
+black = "^23.1.0"
+mypy = "^1.0.1"
+flake8 = "^6.0.0"
+isort = "^5.12.0"
+pre-commit = "^3.1.1"
+bandit = "^1.7.4"
+poethepoet = "^0.18.1"
+webdriver-manager = "^3.8.5"
+selenium = "^4.8.3"
+pytest-flask = "^1.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+skip-string-normalization = true
+
